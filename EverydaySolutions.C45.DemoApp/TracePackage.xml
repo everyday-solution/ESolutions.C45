@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<tracepackage>
+	<header>
+		<customer></customer>
+		<user></user>
+		<station></station>
+		<application></application>
+		<application_version></application_version>
+		<module></module>
+		<module_version></module_version>
+		<OS></OS>
+	</header>
+	<data></data>
+</tracepackage>

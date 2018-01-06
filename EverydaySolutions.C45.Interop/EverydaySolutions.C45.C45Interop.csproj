@@ -1,0 +1,80 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="15.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50215</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0C15761C-0728-4AAE-BE70-EB01D6962A3E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EverydaySolutions.C45.C45Interop</RootNamespace>
+    <AssemblyName>EverydaySolutions.C45.C45Interop</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CustomMarshalers" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="C45Controller.cs" />
+    <Compile Include="C45Constants.cs" />
+    <Compile Include="C45ContinuousFeature.cs" />
+    <Compile Include="C45DebugParameter.cs" />
+    <Compile Include="C45DebugParameterConverter.cs" />
+    <Compile Include="C45DiscreteFeatureAttribute.cs" />
+    <Compile Include="C45Exception.cs" />
+    <Compile Include="C45Feature.cs" />
+    <Compile Include="C45FeatureSet.cs" />
+    <Compile Include="C45FeatureSetCollection.cs" />
+    <Compile Include="C45ResultClass.cs" />
+    <Compile Include="C45Schema.cs" />
+    <Compile Include="C45SchemaColumn.cs" />
+    <Compile Include="C45SchemaColumnList.cs" />
+    <Compile Include="C45ResultClassList.cs" />
+    <Compile Include="C45DiscreteFeature.cs" />
+    <Compile Include="C45Statistics.cs" />
+    <Compile Include="C45SingleFeatureSetClassifiedEventArgs.cs" />
+    <Compile Include="C45UserResult.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="C45Exceptions.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>C45Exceptions.resx</DependentUpon>
+    </Compile>
+    <Compile Include="C45Settings.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="C45Exceptions.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>C45Exceptions.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

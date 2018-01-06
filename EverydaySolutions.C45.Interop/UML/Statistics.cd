@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="EverydaySolutions.C45.C45Statistics">
+    <Position X="1.75" Y="6.5" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>C45Statistics.cs</FileName>
+      <HashCode>AAACAAAAAwAAAAEAAAAIABAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_statistics" />
+    </ShowAsAssociation>
+  </Class>
+  <Struct Name="EverydaySolutions.C45._C45Statistics">
+    <Position X="5.25" Y="6.75" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>C45Statistics.cs</FileName>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAg=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+</ClassDiagram>

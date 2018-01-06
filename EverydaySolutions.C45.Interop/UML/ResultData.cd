@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="EverydaySolutions.C45.C45ComputedResultList">
+    <Position X="2.5" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>C45ResultClassList.cs</FileName>
+      <HashCode>AAIAAAAAAAgAAAAAAAAAAAAAAAAAABAAAAAAAAAAACA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="C45ResultClass" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EverydaySolutions.C45.C45ComputedResult">
+    <Position X="5.75" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <FileName>C45ResultClass.cs</FileName>
+      <HashCode>AAAAAAAiAAAAIBAAAAIAAAAACAAAAIAAAAIAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EverydaySolutions.C45.C45UserResult">
+    <Position X="2.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>C45UserResult.cs</FileName>
+      <HashCode>AAAAAIAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="EverydaySolutions.C45._resultClass">
+    <Position X="8.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>C45ResultClass.cs</FileName>
+      <HashCode>QAAAAEAAAAAAAAAAAAAAAAAAAAIAABAAAAAAAAAAAAg=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+</ClassDiagram>

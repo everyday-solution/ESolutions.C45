@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="EverydaySolutions.C45.C45SchemaProperty">
+    <Position X="8.5" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>C45SchemaColumn.cs</FileName>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAQAAAAEQAAAgEAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EverydaySolutions.C45.C45SchemaPropertyList">
+    <Position X="5" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <FileName>C45SchemaColumnList.cs</FileName>
+      <HashCode>AAIAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="C45SchemaProperty" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EverydaySolutions.C45.C45Schema">
+    <Position X="2.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>C45Schema.cs</FileName>
+      <HashCode>AAIAAAAAAAEAAAABAAJAAEACAAAAAAAAAAAAAAACAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="properties" />
+    </ShowAsAssociation>
+  </Class>
+</ClassDiagram>

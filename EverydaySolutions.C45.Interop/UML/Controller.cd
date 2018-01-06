@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="EverydaySolutions.C45.C45Constants">
+    <Position X="0.5" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>C45Constants.cs</FileName>
+      <HashCode>AAAAAAAQAAABAACACAAAAAAAAAAAAAAAAAIAAIAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EverydaySolutions.C45.C45Controller">
+    <Position X="3.5" Y="4" Width="3" />
+    <TypeIdentifier>
+      <FileName>C45Controller.cs</FileName>
+      <HashCode>BAAAEQAAAAwQgAAAoAQCAAAOECCAIhAAgAAAAAAgAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="settings" />
+      <Property Name="C45Exceptions" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EverydaySolutions.C45.C45ComputedResultList">
+    <Position X="7.75" Y="18" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>C45ResultClassList.cs</FileName>
+      <HashCode>AAIAAAAAAAgAAAAAAAAAAAAAAAAAABAAAAAAAAAAACA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="C45ResultClass" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EverydaySolutions.C45.C45ComputedResult">
+    <Position X="7.75" Y="20.25" Width="2" />
+    <TypeIdentifier>
+      <FileName>C45ResultClass.cs</FileName>
+      <HashCode>AAAAAAAiAAAAIBAAAAIAAAAACAAAAIAAAAIAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EverydaySolutions.C45.C45ContinuousFeature">
+    <Position X="10.75" Y="13.75" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>C45ContinuousFeature.cs</FileName>
+      <HashCode>AAAAAAAAAAEAAAABAAAAAAAAAAEAAAAJAAAACAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="feature" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EverydaySolutions.C45.C45DiscreteFeature">
+    <Position X="10.75" Y="16.25" Width="2" />
+    <TypeIdentifier>
+      <FileName>C45DiscreteFeature.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAIAAAACAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="feature" />
+      <Property Name="C45DiscreteFeatureAttribute" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EverydaySolutions.C45.C45DiscreteFeatureAttribute">
+    <Position X="14.75" Y="17.25" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>C45DiscreteFeatureAttribute.cs</FileName>
+      <HashCode>AAAAAAAAAAEAAIAAgAAAAIAAAAEEAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_discreteFeatureAttribute" />
+    </ShowAsAssociation>
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="EverydaySolutions.C45.C45Feature">
+    <Position X="17" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>C45Feature.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAgAAAAIQAAAAAAAAEAAAAAAAKAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_feature" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EverydaySolutions.C45.C45FeatureSet">
+    <Position X="7.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>C45FeatureSet.cs</FileName>
+      <HashCode>QAAAQAAAAAEAAAABAAEAgAAIAIAACAEAAAABBEAAACQ=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_featureArray" />
+      <Field Name="computedResult" />
+      <Field Name="userResult" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EverydaySolutions.C45.C45FeatureSetCollection">
+    <Position X="7.75" Y="8.25" Width="3" />
+    <TypeIdentifier>
+      <FileName>C45FeatureSetCollection.cs</FileName>
+      <HashCode>BgAAAQAAAAAQhQgEgQAAAAASQMBAIgBgAAAAAAAAICA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="C45FeatureSet" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EverydaySolutions.C45.C45SingleFeatureSetClassifiedEventArgs" Collapsed="true">
+    <Position X="19.5" Y="11.75" Width="3" />
+    <TypeIdentifier>
+      <FileName>C45SingleFeatureSetClassifiedEventArgs.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAEAAAABAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="SingleFeatureClassifiedEventHandler" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EverydaySolutions.C45.C45DebugParameter">
+    <Position X="3.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>C45DebugParameter.cs</FileName>
+      <HashCode>QAQAAAAEAAAAAAAAAACAAIAAAAAAAAAgAgAAYEIAAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_debugParamter" />
+      <Property Name="C45DebugParameterConverter" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EverydaySolutions.C45.C45DebugParameterConverter">
+    <Position X="8.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>C45DebugParameterConverter.cs</FileName>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAACAAAAIAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EverydaySolutions.C45.C45Settings">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>C45Settings.cs</FileName>
+      <HashCode>AAQIAIBEEAAAYRAAgCEAAIAAAABAAAAAQAAAAAAACAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="debugParameter" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EverydaySolutions.C45.C45UserResult">
+    <Position X="5.75" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>C45UserResult.cs</FileName>
+      <HashCode>AAAAAIAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EverydaySolutions.C45.C45SchemaProperty">
+    <Position X="3.5" Y="14.75" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>C45SchemaColumn.cs</FileName>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAQAAAAEQAAAgEAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EverydaySolutions.C45.C45SchemaPropertyList">
+    <Position X="3.5" Y="12.75" Width="2" />
+    <TypeIdentifier>
+      <FileName>C45SchemaColumnList.cs</FileName>
+      <HashCode>AAIAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="C45SchemaProperty" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EverydaySolutions.C45.C45Schema">
+    <Position X="3.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>C45Schema.cs</FileName>
+      <HashCode>AAIAAAAAAAEAAAABAAJAAEACAAAAAAAAAAAAAAACAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="properties" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EverydaySolutions.C45.C45Statistics">
+    <Position X="7.75" Y="5.75" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>C45Statistics.cs</FileName>
+      <HashCode>AAACAAAAAwAAAAEAAAAIABAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_statistics" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EverydaySolutions.C45.C45Exception">
+    <Position X="0.5" Y="12.75" Width="2" />
+    <TypeIdentifier>
+      <FileName>C45Exception.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EverydaySolutions.C45.C45Exceptions">
+    <Position X="0.5" Y="8.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAiAAAAAAAABAABEAAAAQAAAAAAQAAABUAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="EverydaySolutions.C45._resultClass">
+    <Position X="11.25" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>C45ResultClass.cs</FileName>
+      <HashCode>QAAAAEAAAAAAAAAAAAAAAAAAAAIAABAAAAAAAAAAAAg=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="C45ResultClass" />
+    </ShowAsAssociation>
+  </Struct>
+  <Struct Name="EverydaySolutions.C45._C45ContinousFeature">
+    <Position X="21.75" Y="13.25" Width="2" />
+    <TypeIdentifier>
+      <FileName>C45ContinuousFeature.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAACAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="EverydaySolutions.C45._C45DiscreteFeature">
+    <Position X="22.25" Y="17" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>C45DiscreteFeature.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="EverydaySolutions.C45._C45DiscreteFeatureAttribute">
+    <Position X="18.75" Y="17.25" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>C45DiscreteFeatureAttribute.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="EverydaySolutions.C45._C45Feature">
+    <Position X="19.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>C45Feature.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAAQAAACEAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="continuousFeature" />
+      <Field Name="discreteFeature" />
+    </ShowAsAssociation>
+    <AssociationLine Name="discreteFeature" Type="EverydaySolutions.C45._C45DiscreteFeature" FixedToPoint="true">
+      <Path>
+        <Point X="20.305" Y="14.895" />
+        <Point X="20.305" Y="15.27" />
+        <Point X="22.625" Y="15.27" />
+        <Point X="22.625" Y="17" />
+      </Path>
+    </AssociationLine>
+  </Struct>
+  <Struct Name="EverydaySolutions.C45._C45DebugParameter">
+    <Position X="6.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>C45DebugParameter.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAhAAAAAgAAAAAAQAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="EverydaySolutions.C45._C45Statistics">
+    <Position X="11" Y="6" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>C45Statistics.cs</FileName>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAg=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Delegate Name="EverydaySolutions.C45.DecisionTreeGenerationStartedEventHandler" Collapsed="true">
+    <Position X="13.75" Y="11" Width="3.25" />
+    <TypeIdentifier>
+      <FileName>C45Controller.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="EverydaySolutions.C45.DecisionTreeGenerationFinishedEventHandler" Collapsed="true">
+    <Position X="13.75" Y="10.25" Width="3.25" />
+    <TypeIdentifier>
+      <FileName>C45Controller.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="EverydaySolutions.C45.ConsultationStartedEventHandler" Collapsed="true">
+    <Position X="13.75" Y="8.75" Width="3.25" />
+    <TypeIdentifier>
+      <FileName>C45Controller.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="EverydaySolutions.C45.ConsultationFinishedEventHandler" Collapsed="true">
+    <Position X="13.75" Y="9.5" Width="3.25" />
+    <TypeIdentifier>
+      <FileName>C45Controller.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="EverydaySolutions.C45.SingleFeatureClassifiedEventHandler" Collapsed="true">
+    <Position X="13.75" Y="11.75" Width="3.25" />
+    <TypeIdentifier>
+      <FileName>C45Controller.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+</ClassDiagram>
